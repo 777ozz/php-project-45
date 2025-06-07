@@ -1,10 +1,15 @@
 {
     "name": "hexlet/code",
+    "description": "php-project-45",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
         }
     },
+    "bin": [
+	"bin/brain-games"
+    ],
     "authors": [
         {
             "name": "nick.p",
