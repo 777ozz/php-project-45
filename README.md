@@ -8,10 +8,15 @@
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=777ozz_php-project-45&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=777ozz_php-project-45)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=777ozz_php-project-45&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=777ozz_php-project-45)
 
-### Демо
+## Демо
 
 Запись с демонстрацией примера:
 * установки зависимостей `make install`, 
-* запуска игры `make brain-even`, победой и поражением игрока.
+* запуска игры «Проверка на чётность» `make brain-even`, c победой и поражением игрока.
 
 [![asciicast](https://asciinema.org/a/5mjfTJBZ3uuzJaQHoPyWT9gTQ.svg)](https://asciinema.org/a/5mjfTJBZ3uuzJaQHoPyWT9gTQ)
+
+
+Запись с демонстрацией различных исходов игры «Калькулятор» `make brain-calc`:
+
+[![asciicast](https://asciinema.org/a/yla0QEqdebkFFwqHYe0sCRjVN.svg)](https://asciinema.org/a/yla0QEqdebkFFwqHYe0sCRjVN)
