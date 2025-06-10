@@ -1,3 +1,7 @@
+# Brain Games (php-project-45)
+
+## Badges
+
 ### Hexlet tests and linter status
 
 [![Actions Status](https://github.com/777ozz/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/777ozz/php-project-45/actions)
@@ -11,6 +15,8 @@
 
 ## Демо
 
+### brain-even
+
 Запись с демонстрацией примера:
 
 * установки зависимостей `make install`,
@@ -18,10 +24,20 @@
 
 [![asciicast](https://asciinema.org/a/5mjfTJBZ3uuzJaQHoPyWT9gTQ.svg)](https://asciinema.org/a/5mjfTJBZ3uuzJaQHoPyWT9gTQ)
 
+### brain-calc
+
 Запись с демонстрацией различных исходов игры «Калькулятор» `make brain-calc`:
 
 [![asciicast](https://asciinema.org/a/yla0QEqdebkFFwqHYe0sCRjVN.svg)](https://asciinema.org/a/yla0QEqdebkFFwqHYe0sCRjVN)
 
+### brain-gcd
+
 Запись с демонстрацией запуска и различных исходов игры «НОД» `make brain-gcd`:
 
 [![asciicast](https://asciinema.org/a/weuGPvjinjQERZyCmy15MVjnP.svg)](https://asciinema.org/a/weuGPvjinjQERZyCmy15MVjnP)
+
+### brain-progression
+
+Запись с демонстрацией запуска и различных исходов игры «Арифметическая прогрессия» `make brain-progression`:
+
+[![asciicast](https://asciinema.org/a/NqQXcIWHRihAdsK9zTSQCcli8.svg)](https://asciinema.org/a/NqQXcIWHRihAdsK9zTSQCcli8)

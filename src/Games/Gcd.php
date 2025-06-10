@@ -32,7 +32,7 @@ function gcdGame(&$result)
             line('Correct!');
             $result++;
         } else {
-            print_r("'{$answer}' is wrong answer ;(. Correct answer was '{$gcd}'.");
+            print_r("'{$answer}' is wrong answer ;(. Correct answer was '{$gcd}'.\n");
             break;
         }
     }

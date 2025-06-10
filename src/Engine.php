@@ -7,6 +7,7 @@ use function cli\prompt;
 use function BrainGames\Games\Even\evenGame;
 use function BrainGames\Games\Calc\calcGame;
 use function BrainGames\Games\Gcd\gcdGame;
+use function BrainGames\Games\Progression\progressionGame;
 
 function gameEngine($gameName)
 {
@@ -24,6 +25,9 @@ function gameEngine($gameName)
             break;
         case 'gcd':
             gcdGame($result);
+            break;
+        case 'progression':
+            progressionGame($result);
             break;
     }
 

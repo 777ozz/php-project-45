@@ -21,7 +21,7 @@ function evenGame(&$result)
             line('Correct!');
             $result++;
         } else {
-            print_r("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.");
+            print_r("'{$answer}' is wrong answer ;(. Correct answer was '{$rightAnswer}'.\n");
             break;
         }
     }

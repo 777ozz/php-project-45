@@ -35,7 +35,7 @@ function calcGame(&$result)
             line('Correct!');
             $result++;
         } else {
-            print_r("'{$answer}' is wrong answer ;(. Correct answer was '{$numResult}'.");
+            print_r("'{$answer}' is wrong answer ;(. Correct answer was '{$numResult}'.\n");
             break;
         }
     }
