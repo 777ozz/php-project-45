@@ -10,7 +10,7 @@ use function BrainGames\Games\Gcd\gcdGame;
 use function BrainGames\Games\Progression\progressionGame;
 use function BrainGames\Games\Prime\primeGame;
 
-function gameEngine($gameName)
+function gameEngine(string $gameName): void
 {
     line('Welcome to the Brain Games!');
     $name = prompt('May I have your name?');

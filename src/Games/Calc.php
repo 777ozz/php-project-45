@@ -5,7 +5,7 @@ namespace BrainGames\Games\Calc;
 use function cli\line;
 use function cli\prompt;
 
-function calcGame(&$result)
+function calcGame(int &$result): void
 {
     line('What is the result of the expression?');
 

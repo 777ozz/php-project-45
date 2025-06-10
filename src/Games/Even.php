@@ -5,7 +5,7 @@ namespace BrainGames\Games\Even;
 use function cli\line;
 use function cli\prompt;
 
-function evenGame(&$result)
+function evenGame(int &$result): void
 {
     line('Answer "yes" if the number is even, otherwise answer "no".');
 

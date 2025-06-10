@@ -5,22 +5,22 @@ namespace BrainGames\Games\Prime;
 use function cli\line;
 use function cli\prompt;
 
-function primeGame(&$result)
+function isPrime(int $num): bool
 {
-    line('Answer "yes" if given number is prime. Otherwise answer "no".');
-
-    function isPrime($num)
-    {
-        if ($num < 2) {
+    if ($num < 2) {
+        return false;
+    }
+    for ($i = 2; $i < $num; $i++) {
+        if ($num % $i === 0) {
             return false;
         }
-        for ($i = 2; $i < $num; $i++) {
-            if ($num % $i === 0) {
-                return false;
-            }
-        }
-        return true;
     }
+    return true;
+}
+
+function primeGame(int &$result): void
+{
+    line('Answer "yes" if given number is prime. Otherwise answer "no".');
 
     for ($i = 0; $i < 3; $i++) {
         $num = random_int(1, 100);

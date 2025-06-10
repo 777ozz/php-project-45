@@ -5,18 +5,19 @@ namespace BrainGames\Games\Progression;
 use function cli\line;
 use function cli\prompt;
 
-function progressionGame(&$result)
+function progressionGenerator(int $numStart, int $numStep, int $progressionLength): array
+{
+    $progression = [];
+    $progression[] = $numStart;
+    for ($i = 1; $i < $progressionLength; $i++) {
+        $progression[] = $numStart + $numStep * $i;
+    }
+    return $progression;
+}
+
+function progressionGame(int &$result): void
 {
     line('What number is missing in the progression?');
-
-    function progressionGenerator($numStart, $numStep, $progressionLength)
-    {
-        $progression[] = $numStart;
-        for ($i = 1; $i < $progressionLength; $i++) {
-            $progression[] = $numStart + $numStep * $i;
-        }
-        return $progression;
-    }
 
     for ($i = 0; $i < 3; $i++) {
         $progressionLength = random_int(5, 10);
