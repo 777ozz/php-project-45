@@ -41,3 +41,9 @@
 Запись с демонстрацией запуска и различных исходов игры «Арифметическая прогрессия» `make brain-progression`:
 
 [![asciicast](https://asciinema.org/a/NqQXcIWHRihAdsK9zTSQCcli8.svg)](https://asciinema.org/a/NqQXcIWHRihAdsK9zTSQCcli8)
+
+### brain-prime
+
+Запись с демонстрацией запуска и различных исходов игры «Простое ли число?» `make brain-prime`:
+
+[![asciicast](https://asciinema.org/a/h6FWDsRaOqMax1MhOR1IlvYrP.svg)](https://asciinema.org/a/h6FWDsRaOqMax1MhOR1IlvYrP)

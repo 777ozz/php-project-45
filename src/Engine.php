@@ -8,6 +8,7 @@ use function BrainGames\Games\Even\evenGame;
 use function BrainGames\Games\Calc\calcGame;
 use function BrainGames\Games\Gcd\gcdGame;
 use function BrainGames\Games\Progression\progressionGame;
+use function BrainGames\Games\Prime\primeGame;
 
 function gameEngine($gameName)
 {
@@ -28,6 +29,9 @@ function gameEngine($gameName)
             break;
         case 'progression':
             progressionGame($result);
+            break;
+        case 'prime':
+            primeGame($result);
             break;
     }
 
