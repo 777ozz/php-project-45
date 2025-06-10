@@ -1,4 +1,5 @@
-### Hexlet tests and linter status:
+### Hexlet tests and linter status
+
 [![Actions Status](https://github.com/777ozz/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/777ozz/php-project-45/actions)
 
 ### SonarQube Badges
@@ -11,12 +12,16 @@
 ## Демо
 
 Запись с демонстрацией примера:
-* установки зависимостей `make install`, 
+
+* установки зависимостей `make install`,
 * запуска игры «Проверка на чётность» `make brain-even`, c победой и поражением игрока.
 
 [![asciicast](https://asciinema.org/a/5mjfTJBZ3uuzJaQHoPyWT9gTQ.svg)](https://asciinema.org/a/5mjfTJBZ3uuzJaQHoPyWT9gTQ)
 
-
 Запись с демонстрацией различных исходов игры «Калькулятор» `make brain-calc`:
 
 [![asciicast](https://asciinema.org/a/yla0QEqdebkFFwqHYe0sCRjVN.svg)](https://asciinema.org/a/yla0QEqdebkFFwqHYe0sCRjVN)
+
+Запись с демонстрацией запуска и различных исходов игры «НОД» `make brain-gcd`:
+
+[![asciicast](https://asciinema.org/a/weuGPvjinjQERZyCmy15MVjnP.svg)](https://asciinema.org/a/weuGPvjinjQERZyCmy15MVjnP)
